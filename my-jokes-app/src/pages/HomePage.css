@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+:root{
+    --color1: #CDC904;
+}
+header,  section {
+    padding: 100px 0;
+}
+header {
+    padding: 5px 0;
+}
+header, section {
+    background: #CDC904;
+}
+footer {
+    background-color: #B97A57;
+}
+header h1 {
+    font-family: 'Amatic SC';
+    font-weight: 900; /* максимум для этого шрифта */
+    font-size: 64px;
+}
+header a {
+    font-family: 'Amatic SC';
+    font-weight: 900;
+    font-size: 36px;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.5s ease-in-out;;
+}
+header a:hover{
+    font-size: 3rem;
+    color: #ffffff
+}
+header input.search {
+    font-family: 'Amatic SC';
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0 25px;
+    margin: 40px 20px 0 0;
+    width: 484px;
+    height: 62px;
+    border-radius: 32px;
+    
+}
+header input.submit {
+    font-family: 'Amatic SC';
+    font-size: 36px;
+    font-weight: 900;
+    width: 193px;
+    height: 62px;
+    border-radius: 32px;
+    margin: 40px 0 0 0;
+    padding: 0 25px;
+
+}
+section div.container {
+    margin: 0 20px 0 25px;
+    
+    max-width: 100%;
+}
+section div.row {
+    width: 100%;
+    margin: 0 0;
+
+}
+section div.card {
+    width:232px;
+    height: 357px;
+    border-radius: 20px 20px 20px 20px ;
+    margin:10px 0;
+    border: 1px solid black;    
+}
+section div.card_top {
+    border-radius: 20px 20px 0 0 ;
+    
+}
+section div.card_down {
+    border-radius: 0 0 20px 20px ;
+    
+}
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px 18px 0 0 ;
+    border-bottom: 1px solid black;
+}
+section img:hover {
+    size: 110%;
+
+}
+
+section p.title {
+    font-family: 'Amatic SC';
+    padding: 10px 0;
+    font-weight: 700;
+    margin: 0 0;
+    transition: color 1s;
+    font-size: 24px;
+}
+section p.count {
+    font-family: 'Amatic SC';
+    padding: 10px 0;
+    font-weight: 700;
+    margin: 0 0;
+    transition: color 1s;
+    font-size: 24px;
+}
+section p.count:hover {
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding:5px 0 0 0;
+    color: #CDC904;
+}
+section p.title:hover {
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding:5px 0 5px 0;
+    color: #B97A57;
+}
+
+footer img{
+    width: 50%;
+    height: auto;
+    margin: 0 0;
+    padding: 0 0;
+    display: flex;
+    
+}

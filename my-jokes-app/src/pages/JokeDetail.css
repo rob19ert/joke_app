@@ -1,0 +1,39 @@
+header h2 {
+    font-family: 'Amatic SC';
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+header a {
+    font-family: 'Amatic SC';
+    font-weight: 900;
+    font-size: 36px;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.5s ease-in-out;;
+}
+
+section p.anecdot {
+    font-family:'Amatic SC';
+    font-size: 18px;
+    font-weight: 700;
+    width: 500px;
+    margin: 0 25px 25px 25px
+}
+section p.author {
+    font-family:'Amatic SC';
+    font-size: 18px;
+    font-weight: 700;
+    width: 500px;
+    margin: 0 25px 25px 25px
+}
+section img.like {
+    width: 30%;
+    height: auto;
+    margin-left: 25px;
+    border-bottom: 0px;
+}
+section i {
+    color: red;
+    width: 20px;
+}
